@@ -2,7 +2,7 @@
 #include "sgt.h"
 
 // Translation de (xOff,yOff)
-const void sgt::offset(double xOff, double yOff)
+void sgt::offset(double xOff, double yOff)
 { 
 	pt1.offset(xOff, yOff); 
 	pt2.offset(xOff, yOff); 
