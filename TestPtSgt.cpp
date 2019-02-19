@@ -136,8 +136,10 @@ void testSgt(void) // Les segments _____________________________________________
 
 	assert(s1==s2);
     for(int i=0; i<10; ++i)
+    {
         double d = dRand(-s2.length(), s2.length());
         s2.inflate(d);
+    }
 
 
 	// CloserTo
