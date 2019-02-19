@@ -25,7 +25,7 @@ bool rct::contains(const sgt& s) const
 }
 
 // Génère un point aléatoire contenu dans le rectangle
-const pt rct::randPt(void) const
+pt rct::randPt(void) const
 {
     assert(valid());
     pt PtRnd( get_x1() + dRand(height()), get_y1() + dRand(width()) );
